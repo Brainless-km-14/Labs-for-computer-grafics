@@ -1,6 +1,5 @@
 from PIL import Image, ImageDraw
  
-# Пустой желтый фон.
 im = Image.new('RGB', (960, 540), (255, 255, 255))
 draw = ImageDraw.Draw(im)
 f = open('DS9.txt','r')
